@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.abou{
+    width: 20rem;
+    height: 30rem;
+}
+
+    .scale-img-slider {
+        width: 50%;  
+        height: 10%;  
+        border: 8px solid rgb(72, 45, 18);
+        
+    }
+    .scale-img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    
+    .scale-img-slider-main {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+        padding: 20px;
+    }
+    .container2{
+        position: relative;
+        right: -50%;
+    }
+    .container4{
+        position: relative;
+        right: -50%;
+    }
