@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
-*{
-  padding: 3px;
+* {
   margin: 0;
   box-sizing: border-box;
 }
-
-
