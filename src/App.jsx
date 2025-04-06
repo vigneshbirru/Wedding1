@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Location from "./Components/Location";
 import Imgslide from "./Components/Imgslide";
 import ScrollReveal from "./Components/ScrollReveal";
+import Gallery from "./Components/Gallery";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <Navbar /> */}
       {/* <Imgslide/> */}
       {/* <Location /> */}
-      <ScrollReveal/>
+      {/* <ScrollReveal/> */}
+      <Gallery/>
     </div>
   );
 };
