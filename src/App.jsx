@@ -4,6 +4,7 @@ import Location from "./Components/Location";
 import Imgslide from "./Components/Imgslide";
 import ScrollReveal from "./Components/ScrollReveal";
 import Gallery from "./Components/Gallery";
+import Logo from "./Components/logo";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       {/* <Location /> */}
       {/* <ScrollReveal/> */}
       <Gallery/>
+      {/* <Logo/> */}
     </div>
   );
 };

@@ -68,11 +68,7 @@ const ScrollReveal = () => {
   }, []);
 
   return (
-    <div className="container">
-      <div className="header">
-        <p>Scroll to reveal</p>
-        <p>Codegrid</p>
-      </div>
+    <div className="container1">
 
       {rows.map((row, index) => (
         <div 
@@ -90,9 +86,9 @@ const ScrollReveal = () => {
                     src={row.image}
                     alt={`Image alt${row.id}`}
                     />
-                  <p ref={el => (textRefs.current[index] = el)}>
+                  {/* <p ref={el => (textRefs.current[index] = el)}>
                     Image alt{row.id}
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="col right-col"></div>
@@ -117,7 +113,7 @@ const ScrollReveal = () => {
         </div>
       ))}
       
-      <div className="whitespace"></div>
+      
     </div>
   );
 };
